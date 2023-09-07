@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[had you done your Dinner]]>
+    </line>
+    <line>
+      <![CDATA[had you done your breakfast]]>
+    </line>
+    <line>
+      <![CDATA[had you done lunch]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-01T19:33:01 IST" name="Default suite" finished-at="2023-09-01T19:33:01 IST" duration-ms="58">
+    <groups>
+    </groups>
+    <test started-at="2023-09-01T19:33:01 IST" name="Default test" finished-at="2023-09-01T19:33:01 IST" duration-ms="58">
+      <class name="testng.fail">
+        <test-method signature="m1()[pri:0, instance:testng.fail@402bba4f]" started-at="2023-09-01T19:33:01 IST" name="m1" finished-at="2023-09-01T19:33:01 IST" duration-ms="18" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at testng.fail.m1(fail.java:12)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[had you done your Dinner]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:0, instance:testng.fail@402bba4f]" started-at="2023-09-01T19:33:01 IST" name="m2" finished-at="2023-09-01T19:33:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[had you done your breakfast]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m3()[pri:0, instance:testng.fail@402bba4f]" started-at="2023-09-01T19:33:01 IST" name="m3" finished-at="2023-09-01T19:33:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[had you done lunch]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+      </class> <!-- testng.fail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
