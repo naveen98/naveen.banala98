@@ -20,7 +20,7 @@ public class amazon {
 		File dest=new File("C:\\Users\\navee\\OneDrive\\Desktop\\screenshots\\amazonpage.jpg");
 		Files.copy(src, dest);
 		System.out.println("hello this is my first request");
-
+		System.out.println("hello");
 	}
 
 }
